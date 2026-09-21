@@ -30,10 +30,12 @@ The horizontal components are transformed according to the selected wave type an
 
 For the selected Gaussian-window STFTs, the application calculates:
 
+~~~text
 S0 = |S_VZ|² + |S_rad|²
 S1 = |S_VZ|² - |S_rad|²
 S2 = 2 Re{S_VZ conj(S_rad)}
 S3 = 2 Im{S_VZ conj(S_rad)}
+~~~
 
 The displayed `S1`, `S2`, and `S3` parameters are normalized by `S0`.
 
@@ -45,15 +47,18 @@ The displayed `S1`, `S2`, and `S3` parameters are normalized by `S0`.
 
 The application directly uses the following Signal Processing Toolbox functions:
 
+~~~text
 butter
 db
 decimate
 filtfilt
 mag2db
 zp2sos
+~~~
 
 ## Repository structure
 
+~~~text
 PolSejAn/
 ├── main.mlapp
 ├── colormap_MM.mat
@@ -62,6 +67,7 @@ PolSejAn/
 └── UTILS/
     ├── Init_Env.m
     └── Renyi_Entropy.m
+~~~
 
 The `GAB` and `UTILS` directories may contain additional dependencies required by these functions.
 
@@ -146,9 +152,6 @@ The application exports the selected time–frequency region of each Stokes para
 Karol Abratkiewicz  
 Warsaw University of Technology  
 Institute of Electronic Systems, Radar Research Group
-
-Maciej Mendecki
-University of Silesia in Katowice
 
 ## License
 
