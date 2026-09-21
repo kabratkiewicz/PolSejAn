@@ -149,12 +149,13 @@ The application exports the selected time–frequency region of each Stokes para
 
 ## Author
 
-Karol Abratkiewicz  
+Karol Abratkiewicz  (karol.abratkiewicz@pw.edu.pl)
 Warsaw University of Technology  
 Institute of Electronic Systems, Radar Research Group
 
-Maciej Mendecki
+Maciej Mendecki (maciej.mendecki@us.edu.pl)
 University of Silesia in Katowice
+
 
 ## License
 
