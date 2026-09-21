@@ -153,6 +153,9 @@ Karol Abratkiewicz
 Warsaw University of Technology  
 Institute of Electronic Systems, Radar Research Group
 
+Maciej Mendecki
+University of Silesia in Katowice
+
 ## License
 
 No license has been specified yet. Add an appropriate `LICENSE` file before distributing the software or accepting external contributions.
