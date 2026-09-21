@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use PolSejAn in your research, please cite this software."
+title: "PolSejAn: A MATLAB Application for Polarimetric Time–Frequency Analysis of Seismic Signals"
+type: software
+version: 1.0.0
+date-released: 2026-09-21
+
+authors:
+  - family-names: "Abratkiewicz"
+    given-names: "Karol"
+    affiliation: "Warsaw University of Technology"
+
+  - family-names: "Mendecki"
+    given-names: "Maciej"
+    affiliation: "University of Silesia in Katowice"
+
+abstract: >
+  PolSejAn is a MATLAB App Designer application for time–frequency
+  and polarimetric analysis of three-component seismic signals.
+  It supports EW, NS, and VZ signal components, Gaussian-window
+  STFT analysis, Stokes parameter calculation, band-pass filtering,
+  decimation, back-azimuth compensation, and automatic window
+  optimization using Renyi entropy.
+
+keywords:
+  - seismic signal processing
+  - time-frequency analysis
+  - polarization analysis
+  - Stokes parameters
+  - short-time Fourier transform
+  - MATLAB
