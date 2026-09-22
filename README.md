@@ -2,6 +2,9 @@
 
 **PolSejAn** is a MATLAB App Designer application for time–frequency and polarimetric analysis of three-component seismic signals. It processes East–West (EW), North–South (NS), and vertical (VZ) components and visualizes their time-domain, frequency-domain, and time–frequency characteristics using Stokes parameters.
 
+If the software is used for scientific purposes and the obtained results are published, the authors kindly ask for citation of the following article:
+M. Mendecki, K. Abratkiewicz, "Time-frequency bivariate approach for Rayleigh wave identification in mining-induced seismic events", Geophysical Prospecting 2026
+
 ## Features
 
 - Loading three seismic components from ASCII (`.asc`) files
